@@ -3,7 +3,11 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "tiny10"
+      USERNAME: "Aquamareef"
+      PASSWORD: "1314"
+      RAM_SIZE: "8G"
+      CPU_CORES: "6"
     devices:
       - /dev/kvm
       - /dev/net/tun
