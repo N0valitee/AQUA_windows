@@ -1,8 +1,9 @@
 {
   "name": "Windows 11 Pro",
+  "postCreateCommand": "apt-get update && apt-get install -y git"
   "service": "windows",
   "containerEnv": {
-    "VERSION": "11"
+    "VERSION": "tiny10"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
@@ -16,5 +17,4 @@
   },
   "dockerComposeFile": "codespaces.yml",
   "initializeCommand": "docker system prune --all --force"
-  "postCreateCommand": "apt-get update && apt-get install -y git"
 }
