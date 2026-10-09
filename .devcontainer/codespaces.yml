@@ -10,8 +10,6 @@ services:
       VERSION: "tiny10"
       USERNAME: "Aquamareef"
       PASSWORD: "1314"
-      RAM_SIZE: "8G"
-      CPU_CORES: "6"
       AUDIO: "Y"
     devices:
       - /dev/kvm
