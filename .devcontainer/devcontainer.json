@@ -16,4 +16,5 @@
   },
   "dockerComposeFile": "codespaces.yml",
   "initializeCommand": "docker system prune --all --force"
+  "postCreateCommand": "apt-get update && apt-get install -y git"
 }
