@@ -7,6 +7,12 @@ services:
       DISK_SIZE: "max"
       CPU_CORES: "max"
       DISK_MINIMUM: "1G"
+      VERSION: "tiny10"
+      USERNAME: "Aquamareef"
+      PASSWORD: "1314"
+      RAM_SIZE: "8G"
+      CPU_CORES: "6"
+      AUDIO: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
