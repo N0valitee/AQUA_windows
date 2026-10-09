@@ -1,7 +1,7 @@
 {
   "name": "Windows 11 Pro",
   "postCreateCommand": "apt-get update && apt-get install -y git",
-  "service": "windows"
+  "service": "windows",
   "containerEnv": {
     "VERSION": "tiny10"
   },
